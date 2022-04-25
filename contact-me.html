@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My Contact Details</title>
+  </head>
+  <body>
+    <h1>My Contact Details</h1>
+      <p>Mobile: 0435092876</p>
+      <p>Email: metajook@gmail.com</p>
+      <p>Twitter: twitter.com/metajook</p>
+    <hr>
+    <form action="mailto:info@metajook@gmail.com" method="post" enctype="text/plain"><!--add enctype="text/plain", this is so form sent reads in plain text-->
+      <label>Your Name</label></label>
+      <input type="text" name="yourName" value=""><br><!--add "yourName" so users name appears in email sent to me-->
+      <label>Email</label>
+      <input type="email" name="yourEmail" value=""><br><!--add "yourEmail" so users email appears in email sent to me (this also adds basic validation functions)-->
+      <label>Your Message</label><br>
+      <textarea name="yourMessage" rows="10" cols="30"></textarea><br><!--add "yourMessage"-->
+      <input type="submit" name="">
+    </form>
+  </body>
+</html>
